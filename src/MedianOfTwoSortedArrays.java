@@ -1,8 +1,8 @@
 public class MedianOfTwoSortedArrays {
 }
 
-class Solution {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+class Solution5 {
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] nums3 = new int[nums1.length + nums2.length];
         int j = 0;
         double num = 0.00000;
@@ -16,9 +16,9 @@ class Solution {
         }
 
         for (int l=0; l < nums3.length; l++) {
-            if (nums3[i+1] < nums3[i])
+            if (nums3[l+1] < nums3[l]);
         }
 
-        return nums3;
+        return 0.0000;
     }
 }
